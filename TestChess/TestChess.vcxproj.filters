@@ -13,5 +13,155 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\GameFigure">
+      <UniqueIdentifier>{644adc4b-3843-475e-a3a9-d79f1d3b6c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\White">
+      <UniqueIdentifier>{3c0de5f0-a4a3-40a6-b776-3388bc14226b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Black">
+      <UniqueIdentifier>{ad1d7041-c80d-46e0-b9d2-0d4bfb575494}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattelGround.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Peon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Khights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Queens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="General.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattelGround.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Peon.h">
+      <Filter>Header Files\GameFigure</Filter>
+    </ClInclude>
+    <ClInclude Include="Struc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>Header Files\GameFigure</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishops.h">
+      <Filter>Header Files\GameFigure</Filter>
+    </ClInclude>
+    <ClInclude Include="Khights.h">
+      <Filter>Header Files\GameFigure</Filter>
+    </ClInclude>
+    <ClInclude Include="Kings.h">
+      <Filter>Header Files\GameFigure</Filter>
+    </ClInclude>
+    <ClInclude Include="Queens.h">
+      <Filter>Header Files\GameFigure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Map.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Rook.bmp">
+      <Filter>Resource Files\White</Filter>
+    </Image>
+    <Image Include="Queen.bmp">
+      <Filter>Resource Files\White</Filter>
+    </Image>
+    <Image Include="Pawn.bmp">
+      <Filter>Resource Files\White</Filter>
+    </Image>
+    <Image Include="King.bmp">
+      <Filter>Resource Files\White</Filter>
+    </Image>
+    <Image Include="Khight.bmp">
+      <Filter>Resource Files\White</Filter>
+    </Image>
+    <Image Include="Bishop.bmp">
+      <Filter>Resource Files\White</Filter>
+    </Image>
+    <Image Include="RookB.bmp">
+      <Filter>Resource Files\Black</Filter>
+    </Image>
+    <Image Include="QueenB.bmp">
+      <Filter>Resource Files\Black</Filter>
+    </Image>
+    <Image Include="PawnB.bmp">
+      <Filter>Resource Files\Black</Filter>
+    </Image>
+    <Image Include="KingB.bmp">
+      <Filter>Resource Files\Black</Filter>
+    </Image>
+    <Image Include="KhightB.bmp">
+      <Filter>Resource Files\Black</Filter>
+    </Image>
+    <Image Include="GreenCube.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BishopB.bmp">
+      <Filter>Resource Files\Black</Filter>
+    </Image>
   </ItemGroup>
 </Project>
